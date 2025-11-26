@@ -12,6 +12,8 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
         IVisualNovelNodeExecutor<SetDialogueRuntimeNode>,
         IVisualNovelNodeExecutor<SetDialogueRuntimeNodeWithPreviousActor>
     {
+        uint index = 0;
+        
         /// <summary>
         /// Executes the <see cref="SetDialogueRuntimeNode"/> node, setting the dialogue text and actor sprite settings.
         /// </summary>
@@ -35,6 +37,9 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
                 img.enabled = true;
                 img.sprite = runtimeNode.ActorSprite;
             }
+            
+            ctx.BackgroundImage.sprite = ctx.AuroraImages[index];
+            index++;
 
             await TypeTextWithSkipAsync(runtimeNode.DialogueText, ctx);
         }

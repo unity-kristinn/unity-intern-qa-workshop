@@ -458,6 +458,12 @@ MonoBehaviour:
   DialoguePanel: {fileID: 8531567508383469625}
   DialogueText: {fileID: 3386487962908827814}
   ActorNameText: {fileID: 8374237743294195593}
+  AuroraImages:
+  - {fileID: 21300000, guid: 39589508c80a045549c2c5c09d16c899, type: 3}
+  - {fileID: 21300000, guid: 448c3f7bca2e9482fae0a793bd303167, type: 3}
+  - {fileID: 21300000, guid: a59fb908c8f42465381113bef4b8a7c9, type: 3}
+  - {fileID: 21300000, guid: 981903a3d90084339a496e331b73c356, type: 3}
+  - {fileID: 21300000, guid: eb228a2966b1b4e6491020ce77317482, type: 3}
   GlobalFadeDuration: 0.5
   GlobalTextDelayPerCharacter: 0.03
   InputComponent: {fileID: 5544775642454084613}

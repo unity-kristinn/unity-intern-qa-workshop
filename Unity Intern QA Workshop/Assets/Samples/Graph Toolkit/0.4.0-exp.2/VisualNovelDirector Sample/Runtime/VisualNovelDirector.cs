@@ -33,6 +33,7 @@ namespace Unity.GraphToolkit.Samples.VisualNovelDirector
         public GameObject DialoguePanel;
         public TextMeshProUGUI DialogueText;
         public TextMeshProUGUI ActorNameText;
+        public Sprite[] AuroraImages;
 
         [Header("Settings")]
         public float GlobalFadeDuration = 0.5f;
