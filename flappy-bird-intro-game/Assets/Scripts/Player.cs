@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
         {
             print("Strawberry!");
             Destroy(other.gameObject);
+            ScoreCounter.TotalScore++;
         }
         else if (other.gameObject.CompareTag("Enemy"))
         {
